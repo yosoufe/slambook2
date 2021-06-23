@@ -1,6 +1,6 @@
 #include "libHelloSLAM.h"
 
-// 使用 libHelloSLAM.h 中的 printHello() 函数
+// use printHello() function from libHelloSLAM.h header
 int main(int argc, char **argv) {
   printHello();
   return 0;

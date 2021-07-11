@@ -3,7 +3,7 @@ project(chapter3)
 
 set(CMAKE_CXX_FLAGS "-std=c++11")
 
-# 加入各子工程
+# Include each sub-project
 add_subdirectory(useEigen)
 add_subdirectory(useGeometry)
 add_subdirectory(visualizeGeometry)
